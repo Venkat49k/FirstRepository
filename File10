@@ -1,0 +1,73 @@
+Status: FAILED
+Time Taken: 4054
+Size: 574
+Timestamp: Thu Sep 15 11:24:42 EDT 2016
+TestStep: reserveNumbersOrderAsync
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains assertion failed for path [] : RuntimeException:net.sf.saxon.trans.XPathException: XPath syntax error at char 0 in {}:
+    Unexpected token "<eof>" in path expression
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://10.1.86.26:8282/MetaSwitchService-1.0/webservices/MetaswitchServiceImpl
+
+---------------- Request ---------------------------
+Request Headers: Host : 10.1.86.26:8282
+Content-Length : 1514
+SOAPAction : ""
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://com.mcc.oss/wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <wsdl:reserveNumbersOrderAsync>
+         <customerOrderDetails>
+            <account>
+               <accountStatus>ACTIVE</accountStatus>
+               <billingSystemAccountNumber>9000900090009009</billingSystemAccountNumber>
+               <billingSystemCustomerNumber>9000900090009009</billingSystemCustomerNumber>
+               <firstName>Vikram</firstName>
+               <lastName>Y</lastName>
+            </account>
+            <customerOrder>
+               <features>
+                  <action>ADD</action>
+                  <featureCode>TN</featureCode>
+                  <value>7078225510</value>
+               </features>
+               <features>
+                  <action>ADD</action>
+                  <featureCode>TN</featureCode>
+                  <value>7078223011</value>
+               </features>
+               <orderClass>COM</orderClass>
+            </customerOrder>
+            <orderedProduct>
+               <address>
+                  <ratecenter>-ALBANY</ratecenter>
+                  <state>GA</state>
+               </address>
+            </orderedProduct>
+         </customerOrderDetails>
+      </wsdl:reserveNumbersOrderAsync>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Date : Thu, 15 Sep 2016 15:24:43 GMT
+#status# : HTTP/1.1 200 
+Content-Length : 574
+Content-Type : text/xml;charset=UTF-8
+Server : Apache TomEE
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:reserveNumbersOrderAsyncResponse xmlns:ns2="http://com.mcc.oss/wsdl" xmlns:ns3="http://www.metaswitch.com/ems/soap/sh" xmlns:ns4="http://www.metaswitch.com/ems/soap/sh/userdata" xmlns:ns5="http://www.metaswitch.com/ems/soap/sh/servicedata" xmlns:ns6="http://www.metaswitch.com/sdp/soap/sh" xmlns:ns7="http://www.metaswitch.com/sdp/soap/sh/userdata" xmlns:ns8="http://www.metaswitch.com/sdp/soap/sh/servicedata" xmlns:xmime="http://www.w3.org/2005/05/xmlmime"/>
+   </soap:Body>
+</soap:Envelope>
