@@ -1,0 +1,335 @@
+Status: UNKNOWN
+Time Taken: 599
+Size: 218
+Timestamp: Fri Sep 23 16:15:53 EDT 2016
+TestStep: reserveNumbersOrderAsync
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://10.1.86.26:8282/MetaSwitchService-1.0/webservices/MetaswitchServiceImpl
+
+---------------- Request ---------------------------
+Request Headers: Host : 10.1.86.26:8282
+Content-Length : 11751
+SOAPAction : ""
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://com.mcc.oss/wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <wsdl:reserveNumbersOrderAsync>
+         <!--Optional:-->
+         <customerOrderDetails>
+            <!--Optional:-->
+            <account>
+               <!--Optional:-->
+               <accountStatus>?</accountStatus>
+               <!--Optional:-->
+               <billingSystemAccountNumber>?</billingSystemAccountNumber>
+               <!--Optional:-->
+               <billingSystemCustomerNumber>?</billingSystemCustomerNumber>
+               <!--Optional:-->
+               <companyName>?</companyName>
+               <!--Optional:-->
+               <createdBy>?</createdBy>
+               <!--Optional:-->
+               <dateCreated>?</dateCreated>
+               <!--Optional:-->
+               <dateModified>?</dateModified>
+               <!--Optional:-->
+               <firstName>?</firstName>
+               <!--Optional:-->
+               <lastName>?</lastName>
+               <!--Optional:-->
+               <middleName>?</middleName>
+               <!--Optional:-->
+               <modifiedBy>?</modifiedBy>
+               <!--Optional:-->
+               <notes>?</notes>
+               <!--Optional:-->
+               <regCode>?</regCode>
+               <!--Optional:-->
+               <suffix>?</suffix>
+               <!--Optional:-->
+               <title>?</title>
+            </account>
+            <!--Optional:-->
+            <customerOrder>
+               <!--Optional:-->
+               <billingSystemAccountNumber>?</billingSystemAccountNumber>
+               <!--Optional:-->
+               <billingSystemCsrId>?</billingSystemCsrId>
+               <!--Optional:-->
+               <billingSystemCustomerNumber>?</billingSystemCustomerNumber>
+               <!--Optional:-->
+               <billingSystemOrderNumber>?</billingSystemOrderNumber>
+               <!--Optional:-->
+               <billingSystemOrderVersion>?</billingSystemOrderVersion>
+               <!--Optional:-->
+               <bpmid>?</bpmid>
+               <!--Optional:-->
+               <createdBy>?</createdBy>
+               <!--Optional:-->
+               <dateCompleted>?</dateCompleted>
+               <!--Optional:-->
+               <dateCreated>?</dateCreated>
+               <!--Optional:-->
+               <dateModified>?</dateModified>
+               <!--Optional:-->
+               <dueDate>?</dueDate>
+               <!--Optional:-->
+               <expedite>?</expedite>
+               <!--Zero or more repetitions:-->
+               <features>
+                  <!--Optional:-->
+                  <action>?</action>
+                  <!--Optional:-->
+                  <featureCode>?</featureCode>
+                  <!--Optional:-->
+                  <id>?</id>
+                  <!--Optional:-->
+                  <oldvalue>?</oldvalue>
+                  <!--Optional:-->
+                  <productId>?</productId>
+                  <!--Optional:-->
+                  <transactionType>?</transactionType>
+                  <!--Optional:-->
+                  <value>?</value>
+               </features>
+               <!--Optional:-->
+               <id>?</id>
+               <!--Optional:-->
+               <modifiedBy>?</modifiedBy>
+               <!--Optional:-->
+               <notes>?</notes>
+               <!--Optional:-->
+               <oldDueDate>?</oldDueDate>
+               <!--Optional:-->
+               <orderClass>?</orderClass>
+               <!--Optional:-->
+               <orderType>?</orderType>
+               <!--Optional:-->
+               <orderedProductId>?</orderedProductId>
+               <!--Optional:-->
+               <originalOrderType>?</originalOrderType>
+               <!--Optional:-->
+               <productRollback>?</productRollback>
+               <!--Optional:-->
+               <smallid>?</smallid>
+               <!--Optional:-->
+               <status>?</status>
+               <!--Optional:-->
+               <transferNewAccountNumber>?</transferNewAccountNumber>
+               <!--Optional:-->
+               <transferOldAccountNumber>?</transferOldAccountNumber>
+            </customerOrder>
+            <!--Optional:-->
+            <orderedProduct>
+               <!--Optional:-->
+               <address>
+                  <!--Optional:-->
+                  <billingSystemHouseNumber>?</billingSystemHouseNumber>
+                  <!--Optional:-->
+                  <country>?</country>
+                  <!--Optional:-->
+                  <county>?</county>
+                  <!--Optional:-->
+                  <directionalprefix>?</directionalprefix>
+                  <!--Optional:-->
+                  <directionalsuffix>?</directionalsuffix>
+                  <!--Optional:-->
+                  <emergencyServiceNumber>?</emergencyServiceNumber>
+                  <!--Optional:-->
+                  <id>?</id>
+                  <!--Optional:-->
+                  <line1>?</line1>
+                  <!--Optional:-->
+                  <line2>?</line2>
+                  <!--Optional:-->
+                  <line3>?</line3>
+                  <!--Optional:-->
+                  <locdes1>?</locdes1>
+                  <!--Optional:-->
+                  <locdes2>?</locdes2>
+                  <!--Optional:-->
+                  <locdes3>?</locdes3>
+                  <!--Optional:-->
+                  <locdes4>?</locdes4>
+                  <!--Optional:-->
+                  <locval1>?</locval1>
+                  <!--Optional:-->
+                  <locval2>?</locval2>
+                  <!--Optional:-->
+                  <locval3>?</locval3>
+                  <!--Optional:-->
+                  <locval4>?</locval4>
+                  <!--Optional:-->
+                  <msag>?</msag>
+                  <!--Optional:-->
+                  <msagCommunity>?</msagCommunity>
+                  <!--Optional:-->
+                  <notes>?</notes>
+                  <!--Optional:-->
+                  <postalCommunity>?</postalCommunity>
+                  <!--Optional:-->
+                  <ratecenter>?</ratecenter>
+                  <!--Optional:-->
+                  <state>?</state>
+                  <!--Optional:-->
+                  <streetAddressPrefix>?</streetAddressPrefix>
+                  <!--Optional:-->
+                  <streetAddressSuffix>?</streetAddressSuffix>
+                  <!--Optional:-->
+                  <streetname>?</streetname>
+                  <!--Optional:-->
+                  <streetnumber>?</streetnumber>
+                  <!--Optional:-->
+                  <streetnumbersuffix>?</streetnumbersuffix>
+                  <!--Optional:-->
+                  <streettype>?</streettype>
+                  <!--Optional:-->
+                  <timezone>?</timezone>
+                  <!--Optional:-->
+                  <towncity>?</towncity>
+                  <!--Optional:-->
+                  <zip>?</zip>
+               </address>
+               <!--Optional:-->
+               <addressId>?</addressId>
+               <!--Optional:-->
+               <billingSystemAccountNumber>?</billingSystemAccountNumber>
+               <!--Optional:-->
+               <billingSystemCustomerNumber>?</billingSystemCustomerNumber>
+               <!--Zero or more repetitions:-->
+               <childProducts/>
+               <!--Zero or more repetitions:-->
+               <features>
+                  <!--Optional:-->
+                  <featureCode>?</featureCode>
+                  <!--Optional:-->
+                  <id>?</id>
+                  <!--Optional:-->
+                  <value>?</value>
+               </features>
+               <!--Optional:-->
+               <id>?</id>
+               <!--Optional:-->
+               <notes>?</notes>
+               <!--Optional:-->
+               <oldAddress>
+                  <!--Optional:-->
+                  <billingSystemHouseNumber>?</billingSystemHouseNumber>
+                  <!--Optional:-->
+                  <country>?</country>
+                  <!--Optional:-->
+                  <county>?</county>
+                  <!--Optional:-->
+                  <directionalprefix>?</directionalprefix>
+                  <!--Optional:-->
+                  <directionalsuffix>?</directionalsuffix>
+                  <!--Optional:-->
+                  <emergencyServiceNumber>?</emergencyServiceNumber>
+                  <!--Optional:-->
+                  <id>?</id>
+                  <!--Optional:-->
+                  <line1>?</line1>
+                  <!--Optional:-->
+                  <line2>?</line2>
+                  <!--Optional:-->
+                  <line3>?</line3>
+                  <!--Optional:-->
+                  <locdes1>?</locdes1>
+                  <!--Optional:-->
+                  <locdes2>?</locdes2>
+                  <!--Optional:-->
+                  <locdes3>?</locdes3>
+                  <!--Optional:-->
+                  <locdes4>?</locdes4>
+                  <!--Optional:-->
+                  <locval1>?</locval1>
+                  <!--Optional:-->
+                  <locval2>?</locval2>
+                  <!--Optional:-->
+                  <locval3>?</locval3>
+                  <!--Optional:-->
+                  <locval4>?</locval4>
+                  <!--Optional:-->
+                  <msag>?</msag>
+                  <!--Optional:-->
+                  <msagCommunity>?</msagCommunity>
+                  <!--Optional:-->
+                  <notes>?</notes>
+                  <!--Optional:-->
+                  <postalCommunity>?</postalCommunity>
+                  <!--Optional:-->
+                  <ratecenter>?</ratecenter>
+                  <!--Optional:-->
+                  <state>?</state>
+                  <!--Optional:-->
+                  <streetAddressPrefix>?</streetAddressPrefix>
+                  <!--Optional:-->
+                  <streetAddressSuffix>?</streetAddressSuffix>
+                  <!--Optional:-->
+                  <streetname>?</streetname>
+                  <!--Optional:-->
+                  <streetnumber>?</streetnumber>
+                  <!--Optional:-->
+                  <streetnumbersuffix>?</streetnumbersuffix>
+                  <!--Optional:-->
+                  <streettype>?</streettype>
+                  <!--Optional:-->
+                  <timezone>?</timezone>
+                  <!--Optional:-->
+                  <towncity>?</towncity>
+                  <!--Optional:-->
+                  <zip>?</zip>
+               </oldAddress>
+               <!--Optional:-->
+               <parentProductId>?</parentProductId>
+               <!--Optional:-->
+               <productCatalog>
+                  <!--Optional:-->
+                  <description>?</description>
+                  <!--Optional:-->
+                  <parentProductCode>?</parentProductCode>
+                  <!--Optional:-->
+                  <productCode>?</productCode>
+                  <productEneabled>?</productEneabled>
+                  <!--Optional:-->
+                  <productLabel>?</productLabel>
+                  <!--Optional:-->
+                  <productType>?</productType>
+               </productCatalog>
+               <!--Optional:-->
+               <productCode>?</productCode>
+               <!--Optional:-->
+               <status>?</status>
+            </orderedProduct>
+         </customerOrderDetails>
+      </wsdl:reserveNumbersOrderAsync>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Date : Fri, 23 Sep 2016 20:15:53 GMT
+#status# : HTTP/1.1 500 
+Content-Length : 218
+Connection : close
+Content-Type : text/xml;charset=UTF-8
+Server : Apache TomEE
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Client</faultcode>
+         <faultstring>Unmarshalling Error: ?</faultstring>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
